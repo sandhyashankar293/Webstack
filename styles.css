@@ -1,0 +1,86 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #e0e0e0; /* Light grey background for contrast */
+}
+
+header {
+    background-color: #003366; /* Dark blue header */
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 20px;
+    background-color: white;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2, h3 {
+    color: #003366; /* Dark blue color for headings */
+}
+
+h2 {
+    border-bottom: 2px solid #003366; /* Dark blue underline for headings */
+    padding-bottom: 5px;
+}
+
+h3 {
+    color: #004080; /* Slightly lighter dark blue for subheadings */
+}
+
+footer {
+    background-color: #003366; /* Dark blue footer */
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    padding: 5px 0;
+    border-bottom: 1px solid #ddd; /* Light grey border between list items */
+}
+
+ul li:nth-child(even) {
+    background-color: #f4f4f4; /* Light grey background for even list items */
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    background-color: #003366; /* Dark blue background for table headers */
+    color: white;
+    font-weight: bold;
+}
+
+tr:nth-child(even) {
+    background-color: #f4f4f4; /* Light grey background for table rows */
+}
